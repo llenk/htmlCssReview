@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<!-- this first line is the correct way to define html -->
+<!-- this open html take has to close at the veryyyy end, and everything is its child -->
+<!-- maintain parent/child relationship -->
+<!-- nice indentation. children are indented one tab/two spaces from their parent. easy to read -->
+<!-- one tab/two spaces is a flame war -->
+<!-- the html tag's children don't get indented bc convention. also to make things not too indented i guess -->
+<html lang="en"> 
+<!-- This attribute determines the language -->
+<head>
+    <!-- what you put in the head doesn't go on the DOM, it gets added as metadata -->
+    <!--  -->
+    <meta charset="UTF-8">
+    <!-- what charset, utf-8 is the standard -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this line says the page is mobile friendly -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- this is for a specific browser, IE Edge, idk what it does (LUKEdk either) (makes it compatible?) -->
+    <!-- tells it what version to render in??? -->
+
+    <!-- this stuff can't be in the same tag -->
+    <!-- ex might have different favicons for different devices (favicons are the little website icons) -->
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML and CSS Review</title>
+</head>
+<body>
+    <!-- this contains the actual stuff we display -->
+    <p>html is the markup we're writing and the DOM is the current state. Kinda picky, but it's good to understand the difference.</p>
+    <h1>HTML</h1>
+    <p>html and css are the stuff we're writing, and they talk to javascript (ex)</p>
+    <h1>HTML and CSS Review</h1>
+    <h1>I'M THE LARGEST HEADING TAG</h1>
+    <h6>i'm the smallest</h6>
+    <p>when you write code, you have to make sure it looks good across all browsers</p>
+    <p>different browsers show things differently, so we all hate safari i guess</p>
+    <p>"I need a reputable news orginization"</p>  
+    <p>"NPR?"</p>
+    <p>"Okay, the Onion"</p>
+    <p>At this point we learned how to change everything on the internet we wanted!</p>
+    <h2>Things I Like</h2>
+    <ul>
+        <li class="Activities">Naps</li>
+        <li>Soup</li>
+        <li class="Activities">Running</li>
+        <li>Weekends</li>
+    </ul>
+    <p>Note: we created an ordered list, but didn't type the numbers, so if a browser decided they don't like the numbers, they could get rid of them. They decide how to display things.</p>
+    <h2>Fast Things</h2>
+    <ol>
+        <li id="FirstPlace">Me running</li>
+        <li id="SecondPlace">Me walking</li>
+        <li id="ThirdPlace">Me sitting</li>
+    </ol>
+    <h2>Selector Notes</h2>
+    <h3>Ids</h3>
+    <p>Write "id=" in the starting tag</p>
+    <p>Use # at the front of the selector for ids</p>
+    <p>Can only use an id once on an html class</p>
+    <h3>Classes</h3>
+    <p>You can use classes more than once.</p>
+    <p>DIFFERENT FROM A JAVASCRIPT CLASS, which can get confusing</p>
+    <p>If at some point, you'll have more than one of soemlthing on the DOM, use a class</p>
+    <h3>Priorities</h4>
+    <p>Under the hood, CSS assigns a point value to how relevant things are. Putting styling directly on the element (in html) is first place, then ids, then classes, then type.</p>
+    <p>Alternately, you can put !important on an attribute in CSS to make it most important.</p>
+    <p>Order in CSS does matter in a specific case. If you write the same thing with different properties twice, the one that comes last wins.</p>
+    <p>The important thing is not to memorize the ranking, but remembering that there is a way to be ranked. And accept it.</p>
+    <p><b>At this point Luke gave us some mneonmic, but I was a bit zoned out, so I don't remember what it was. It didn't sound very good anyway.</b></p>
+    <div id="space"></div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* Element selector */
+body {
+    background: rgb(231, 248, 208);
+}
+
+li {
+    color: #ffffff;
+}
+
+#space {
+    height: 500px;
+}
+
+/* This thing is a selector*/
+#FirstPlace {
+    color: gold;
+}
+#SecondPlace {
+    color: silver;
+}
+#ThirdPlace {
+    color: #cd7f32;
+}
+
+.Activities {
+    color: green;
+}
